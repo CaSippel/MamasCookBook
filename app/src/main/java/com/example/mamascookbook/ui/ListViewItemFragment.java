@@ -70,9 +70,6 @@ public class ListViewItemFragment extends Fragment {
                 public void onClick(View view) {
                     d(TAG, "onClick button_delete_item(" + mName + ")");
                     mRecipeListViewModel.onDeleteRecipe(getContext(), mName);
-
-                    // refresh the recipe list
-
                     getActivity().onBackPressed();
                 }
             });

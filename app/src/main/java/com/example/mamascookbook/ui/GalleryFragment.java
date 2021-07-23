@@ -19,9 +19,12 @@ import com.example.mamascookbook.RecipeInfo;
 
 import java.util.List;
 
+import static android.util.Log.d;
+
 public class GalleryFragment extends Fragment {
     private static final String TAG = "Tag-GalleryFragment";
 
+    ArrayAdapter<RecipeInfo> mRecipeArrayAdapter;
     List<RecipeInfo> mRecipes;
     private RecipeListViewModel mRecipeListViewModel;
 
@@ -47,12 +50,12 @@ public class GalleryFragment extends Fragment {
                 new RecipeListViewModelFactory(getContext())).get(RecipeListViewModel.class);
         mRecipes = mRecipeListViewModel.getRecipeList(getContext());
 
-        ListView mRecipeListView = (ListView) root.findViewById(R.id.listview_recipes);
-        ArrayAdapter<RecipeInfo> arrayAdapter = new ArrayAdapter<RecipeInfo>(getContext(),
+        ListView recipeListView = (ListView) root.findViewById(R.id.listview_recipes);
+        mRecipeArrayAdapter = new ArrayAdapter<RecipeInfo>(getContext(),
                 R.layout.activity_listview, R.id.listview_item_display, mRecipes);
-        mRecipeListView.setAdapter(arrayAdapter);
+        recipeListView.setAdapter(mRecipeArrayAdapter);
 
-        mRecipeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        recipeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Object item = adapterView.getItemAtPosition(i);
@@ -68,5 +71,17 @@ public class GalleryFragment extends Fragment {
         });
 
         return root;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        d(TAG, "onResume, refresh listview data");
+        // todo: not working, old items still visible
+        mRecipes = mRecipeListViewModel.getRecipeList(getContext());
+        mRecipeArrayAdapter.clear();
+        mRecipeArrayAdapter.addAll(mRecipes);
+        mRecipeArrayAdapter.notifyDataSetChanged();
+
     }
 }
