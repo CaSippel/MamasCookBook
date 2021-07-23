@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:strokeColor="@color/iconColor"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M7,3H21 M7,17H21 M10,7H18 M10,12H18" />
+    <path
+        android:strokeColor="@color/iconColor"
+        android:strokeWidth="2"
+        android:pathData="M7,3V17 M21,3V17" />
+    <path
+        android:strokeColor="@color/iconColor"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M3,7V21 M3,21H17" />
+</vector>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:topLeftRadius="4dp"
+        android:topRightRadius="4dp"
+        android:bottomLeftRadius="4dp"
+        android:bottomRightRadius="4dp" />
+    <size
+        android:width="24dp"
+        android:height="24dp" />
+    <solid
+        android:color="@color/iconColor" />
+    <stroke
+        android:width="3dp"
+        android:color="@color/iconColor" />
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+        <corners
+            android:topLeftRadius="4dp"
+            android:topRightRadius="4dp"
+            android:bottomLeftRadius="4dp"
+            android:bottomRightRadius="4dp" />
+        <size
+            android:width="12dp"
+            android:height="12dp" />
+        <solid
+            android:color="@color/iconColor" />
+        <stroke
+            android:width="3dp"
+            android:color="@color/iconColor" />
+    </shape>
+</shape>
+-->

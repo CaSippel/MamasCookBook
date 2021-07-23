@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="listview_font_size">20sp</dimen>
+    <dimen name="multiline_text_box_border_width">1dp</dimen>
+    <dimen name="multiline_text_box_radius">8dp</dimen>
+    <dimen name="multiline_text_box_margin">4dp</dimen>
+    <dimen name="snackbar_margin">4dp</dimen>
+    <dimen name="snackbar_radius">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">0dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="primary_button_radius">4dp</dimen>
+    <dimen name="primary_button_stroke">1dp</dimen>
+    <dimen name="text_input_size">20sp</dimen>
+    <dimen name="title_size">18sp</dimen>
+</resources>

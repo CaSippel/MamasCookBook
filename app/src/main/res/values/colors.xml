@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brandColor">#FF8F00</color>
+    <color name="darkGray">#202020</color>
+    <color name="darkVanilla">#D9C7AA</color>
+    <color name="desertSand">#E6D3B5</color>
+    <color name="dutchWhite">#EADBBC</color>
+    <color name="indigo">#5540BF</color>
+    <color name="indigoLight">#604cc3</color>
+    <color name="lightFrenchBeige">#CCAA86</color>
+    <color name="offWhite">#FAFAFA</color>
+    <color name="orange">#FFC65C</color>
+    <color name="peach">#f5c8bd</color>
+    <color name="pink">#F495B5</color>
+    <color name="plum">#4f1567</color>
+    <color name="red">#C80000</color>
+
+    <!-- app colors -->
+    <color name="appBarBackground">@color/peach</color>
+    <color name="appBarText">@color/textColorPrimaryDark</color>
+    <color name="colorAccent">@color/pink</color>
+    <color name="colorPrimary">@color/peach</color>
+    <color name="colorPrimaryDark">@color/peach</color>
+    <color name="controlActivated">@color/lightFrenchBeige</color>
+    <color name="navItem">@color/textColorPrimaryDark</color>
+    <color name="navItemHighlight">@color/orange</color>
+    <color name="navItemSelected">@color/textColorPrimaryDark</color>
+    <color name="navigationBar">@android:color/transparent</color>
+    <color name="statusBar">@color/peach</color>
+    <color name="textColorHighlight">@color/orange</color>
+    <color name="textColorPrimary">@android:color/white</color>
+    <color name="textColorPrimaryDark">@color/darkGray</color>
+    <color name="windowBackground">#F7F4e9</color>
+
+    <!-- drawable colors -->
+    <color name="cookBookBackground">@color/brandColor</color>
+    <color name="cookBookOutline">@color/darkGray</color>
+    <color name="cookBookPage">@color/offWhite</color>
+    <color name="iconColor">@color/darkGray</color>
+    <color name="multilineTextBoxBackground">@android:color/white</color>
+    <color name="multilineTextBoxBorder">@color/dutchWhite</color>
+    <color name="sideNavBarText">@color/textColorPrimaryDark</color>
+    <color name="sideNavBarBackground">@color/peach</color>
+    <color name="sideNavBarBorder">@color/peach</color>
+    <color name="snackbarBackground">@color/darkGray</color>
+    <color name="snackbarText">@android:color/white</color>
+    <color name="trashButton">@color/red</color>
+    <!-- buttons -->
+    <color name="primaryButton">@color/brandColor</color>
+    <color name="primaryButtonText">@color/textColorPrimaryDark</color>
+    <color name="primaryButtonBorderFocused">@color/peach</color>
+    <color name="primaryButtonBorderPressed">@color/peach</color>
+    <color name="secondaryButton">@color/indigo</color>
+    <color name="secondaryButtonText">@color/textColorPrimary</color>
+    <color name="secondaryButtonBorderFocused">@color/indigoLight</color>
+    <color name="secondaryButtonBorderPressed">@color/indigoLight</color>
+    <color name="inverseButton">@android:color/transparent</color>
+    <color name="inverseButtonBorder">@color/indigo</color>
+    <color name="inverseButtonBorderFocused">@color/indigoLight</color>
+    <color name="inverseButtonBorderPressed">@color/indigoLight</color>
+    <color name="inverseButtonPressed">@color/dutchWhite</color>
+    <color name="inverseButtonText">@color/indigo</color>
+</resources>

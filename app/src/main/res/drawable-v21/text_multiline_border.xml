@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/multiline_text_box_margin"
+        android:right="@dimen/multiline_text_box_margin"
+        android:bottom="@dimen/multiline_text_box_margin"
+        android:top="@dimen/multiline_text_box_margin">
+
+        <!-- Insert your shape here: -->
+        <shape android:shape="rectangle">
+            <solid
+                android:color="@color/multilineTextBoxBackground" />
+            <stroke
+                android:color="@color/multilineTextBoxBorder"
+                android:width="@dimen/multiline_text_box_border_width" />
+            <corners
+                android:radius="@dimen/multiline_text_box_radius" />
+        </shape>
+    </item>
+</layer-list>
